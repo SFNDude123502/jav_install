@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc -Wall $1 -o $2
+echo "Here are the Compiling Errors:"

@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "updating repositories..."
+sudo apt-get update
+echo "repositories updated."
+echo "installing jre..."
+sudo apt-get install default-jre
+echo "jre installed."
+echo "installing jdk..."
+sudo apt-get install default-jdk
+echo "jdk installed."
+echo "installing gcc dependencies..."
+sudo apt-get install build-essential
+echo "gcc dependencies installed."
+echo "installing gcc..."
+sudo apt-get install gcc
+echo "gcc installed."
+echo "All Finished!"
